@@ -10,9 +10,9 @@ stages:
       params.yaml:
         foo: bar
     outs:
-    - path: path/pass.png
+    - path: path/fail.png
       md5: 44b0cc2ea1f49d16cb86a337cc0a5182
       size: 89341
-    - path: path\fail.png
+    - path: path/pass.png
       md5: 44b0cc2ea1f49d16cb86a337cc0a5182
       size: 89341

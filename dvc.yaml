@@ -6,5 +6,5 @@ stages:
     deps:
       - in.png
     plots:
-      - path\fail.png
+      - path/fail.png
       - path/pass.png
