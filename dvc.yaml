@@ -1,0 +1,10 @@
+stages:
+  plot:
+    cmd: python plot.py
+    params:
+      - foo
+    deps:
+      - in.png
+    plots:
+      - path\fail.png
+      - path/pass.png
